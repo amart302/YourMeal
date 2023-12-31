@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Meal-самые сочные бургеры</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    
+
+  <header>
+    <div class="orange-block">
+        <img src="./img/Ellipse.svg" alt="">
+        <div class="head_box1">
+            <div class="logo"><a href="./index.html"><img class="logo_img" src="./img/logo.svg" alt=""></a></div>
+            <div class="head_block1">
+                <div class="head_pod_block1"><img src="./img/bigBurger.svg" alt=""></div>
+                <div class="head_pod_block2">
+                    <img class="cochny_img" src="./img/Только самые сочные бургеры! (1).svg" alt="">
+                    <div class="free_dostavka"><img src="./img/Бесплатная доставка от 599₽.svg" alt=""></div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <main>
+      <div class="mainBox1">
+        <div class="pod_block1">
+            <div class="burgers">
+              <a href="./burgers.html">
+                <div class="bIcon"></div>
+                <div class="bText">Бургеры</div>
+              </a> 
+            </div>
+            <div class="snacks">
+              <a href="./snacks.html">
+                <div class="sIcon"></div>
+                <div class="sText">Снеки</div>
+              </a>
+            </div>
+            <div class="hot-dogs">
+              <a href="./hot-dogs.html">
+                <div class="hIcon"></div>
+                <div class="hText">Хот-доги</div>
+              </a>
+            </div>
+            <div class="combo">
+              <a href="">
+                <div class="сIcon"></div>
+                <div class="cText">Комбо</div>
+              </a>
+            </div>
+            <div class="shawarma">
+              <a href="">
+                <div class="shIcon"></div>
+                <div class="shText">Шаурма</div>
+              </a>
+            </div>
+            <div class="pizza">
+              <a href="">
+                <div class="pIcon"></div>
+                <div class="pText">Пицца</div>
+              </a>
+            </div>
+            <div class="wok">
+              <a href="">
+                <div class="wIcon"></div>
+                <div class="wText">Вок</div>
+              </a> 
+            </div>
+            <div class="desserts">
+              <a href="">
+                <div class="dIcon"></div>
+                <div class="dText">Десерты</div>
+              </a>
+            </div>
+            <div class="sauces">
+              <a href="">
+                <div class="saIcon"></div>
+                <div class="saText">Соусы</div>
+              </a>
+            </div>
+        </div>
+      </div>
+
+      <div class="mainBox2">
+        <div class="mainBlock1">
+          <div class="headBasket">
+            <h2>Корзина</h2>
+            <div class="headNumber"><div class="num">4</div></div>
+          </div>
+          <div class="palca"></div>
+          <div class="bas">
+            <div class="basket1">
+                <div class="bimg1"><img src="./img/bimg1.svg" alt=""></div>
+                <div class="btext">
+                  <div class="btext1">Супер сырный</div>
+                  <div class="btext2">512г</div>
+                  <div class="btext3">550</div>
+              </div>
+            </div> 
+            <div class="plusminus">
+              <div class="minus"><b>-</b></div>
+              <div class="number" id="number">1</div>
+              <div class="plus" id="plus"><b>+</b></div>
+            </div> 
+          </div>
+          <div class="palca"></div>
+          <div class="bas">
+            <div class="basket2">
+                <div class="bimg2"><img src="./img/bimg2.svg" alt=""></div>
+                <div class="btext">
+                  <div class="btext1">Картошка фри</div>
+                  <div class="btext2">180г</div>
+                  <div class="btext3">245Р</div>
+                </div>
+            </div>
+            <div class="plusminus">
+              <div class="minus"><b>-</b></div>
+              <div class="number">2</div>
+              <div class="plus"><b>+</b></div>
+            </div> 
+          </div>
+          <div class="palca"></div>
+          <div class="bas">
+            <div class="basket3">
+              <div class="bimg3"><img src="./img/bimg3.svg" alt=""></div>
+              <div class="btext">
+                <div class="btext1">Жгучий хот-дог</div>
+                <div class="btext2">245г</div>
+                <div class="btext3">239Р</div>
+              </div>
+            </div>
+            <div class="plusminus">
+              <div class="minus"><b>-</b></div>
+              <div class="number">1</div>
+              <div class="plus"><b>+</b></div>
+            </div> 
+          </div>
+          <div class="palca"></div>
+
+          <div class="total">
+            <div class="tText">Итого</div>
+            <div class="tprice">1279Р</div>
+          </div>
+          <button id="zakaz-modal-openbt" class="zakaz_modal_openbt"><div class="add2">Оформить заказ</div></button>
+          <div class="dostavka">
+            <div class="dosimg"></div>
+            <div class="dostext">Бесплатная доставка</div>
+          </div>
+        </div>
+        <div class="mainBlock2">
+          <h1>Бургеры</h1>
+          <div class="cards1">
+              <div class="card">
+                <button id="open_modal"><div class="image1"><img class="image1_img" src="./img/image1.svg" alt=""></div></button>
+                <div class="price">689Р</div>
+                <div class="name">Мясная бомба</div>
+                <div class="weight">520г</div>
+                <div class="add">Добавить</div>
+              </div>
+            
+              <div class="card">
+                <button id="open_modal2"><div class="image2"><img class="image2_img" src="./img/image2.svg" alt=""></div></button>
+                <div class="price">550Р</div>
+                <div class="name">Супер сырный</div>
+                <div class="weight">512г</div>
+                <div class="add">Добавить</div>
+              </div>
+            
+              <div class="card">
+                <button id="open_modal2"><div class="image3"><img class="image3_img" src="./img/image3.svg" alt=""></div></button>
+                <div class="price">639Р</div>
+                <div class="name">Сытный</div>
+                <div class="weight">580г</div>
+               <div class="add">Добавить</div>
+              </div>
+          </div>
+
+          <h1>Закуски</h1>
+          <div class="cards2">
+            <div class="card">
+              <button id="open_modal2"><div class="img_sn1"><img class="img_sn1_img" src="./img/img_sn1.svg" alt=""></div></button>
+              <div class="price">250Р</div>
+              <div class="name">Начос</div>
+              <div class="weight">220г</div>
+              <div class="add">Добавить</div>
+            </div>
+          
+            <div class="card">
+              <button id="open_modal2"><div class="img_sn2"><img class="img_sn2_img" src="./img/img_sn2.svg" alt=""></div></button>
+              <div class="price">245Р</div>
+              <div class="name">Картошка фри</div>
+              <div class="weight">180г</div>
+              <div class="add">Добавить</div>
+            </div>
+          
+            <div class="card">
+              <button id="open_modal2"><div class="img_sn3"><img class="img_sn3_img" src="./img/img_sn3.svg" alt=""></div></button>
+              <div class="price">230Р</div>
+              <div class="name">Луковые кольца</div>
+              <div class="weight">160г</div>
+              <div class="add">Добавить</div>
+            </div>
+          </div>
+          <h1>Хот-доги</h1>
+          <div class="cards3">
+            <div class="card">
+              <button id="open_modal2"><div class="img_hot1"><img class="img_hot1_img" src="./img/img_hot1.svg" alt=""></div></button>
+              <div class="price">290Р</div>
+              <div class="name">Домашний хот-дог</div>
+              <div class="weight">250г</div>
+              <div class="add">Добавить</div>
+            </div>
+          
+            <div class="card">
+              <button id="open_modal2"><div class="img_hot2"><img class="img_hot2_img" src="./img/img_hot2.svg" alt=""></div></button>
+              <div class="price">239Р</div>
+              <div class="name">Жгучий хот-дог</div>
+              <div class="weight">245г</div>
+              <div class="add">Добавить</div>
+            </div>
+          
+            <div class="card">
+              <button id="open_modal2"><div class="img_hot3"><img class="img_hot3_img" src="./img/img_hot3.svg" alt=""></div></button>
+              <div class="price">220Р</div>
+              <div class="name">Классический хот-дог</div>
+              <div class="weight">215г</div>
+              <div class="add">Добавить</div>
+            </div>
+          </div>
+        </div> 
+    </main>
+
+
+    <div class="modal" id="my-modal">
+      <div class="modal_box">
+         <button class="close_modal" id="close-my-modal">
+             <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z" fill="#333333"/>
+             <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333"/>
+             </svg>
+         </button>
+         <div class="name_modal">Мясная бомба</div>
+         <div class="modal_block1">
+             <div class="modal_img"></div>
+             <div class="modal_text">
+                 <div class="t_podBlock1">Супер мясное наслаждение! Большая 
+                     <br>
+                     рубленная котлета из свежего говяжего мяса
+                     <br>
+                     покорит вас своей сочностью, а 
+                     <br>
+                     хрустящие листья салата добавят свежести.
+                 </div>
+                 <div class="sostav">Состав:</div>
+                 <div class="t_podBlock2">
+                     Пшеничная булочка 
+                     <br>
+                     Котлета из говядины
+                     <br>
+                     Красный лук
+                     <br>
+                     Листья салата
+                     <br>
+                     Соус горчичный
+                     <br>
+                     <div class="t_pb_weight">520г, ккал 430</div>
+                 </div>
+             </div>
+         </div> 
+         <div class="modal_foot">
+            <div class="modal_f_block1"><div class="f_block1_text">Добавить</div></div>
+            <div class="plusminus2">
+              <div class="minus2">-</div>
+              <div class="number2">1</div>
+              <div class="plus2">+</div>
+            </div>
+          </div>
+
+     </div>
+ </div>
+
+ <div class="zakaz_modal" id="zakaz-modal">
+  <div class="zakaz_modal_box1">
+     <button class="close_zakaz_modal" id="close-zakaz-modal">
+         <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z" fill="#333333"/>
+         <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333"/>
+         </svg>
+     </button>
+     <div class="zakaz_icon"><img class="ponc_img" src="./img/ponc_img.svg" alt=""></div>
+     <div class="zakaz_modal_box2">
+        <h1>Доставка</h1>
+        <input class="your_name" type="text" placeholder="Ваше имя">
+        <input class="number_inp" type="text" placeholder="Телефон">
+        <label class="lab1" for="">
+          <input name="vibor1" type="radio">Самовывоз
+        </label>
+        <label class="lab2" for="">
+          <input name="vibor1" type="radio">Доставка
+        </label>
+        <input class="address" type="text" placeholder="Улица, дом, квартира">
+        <div class="inp_block">
+          <input class="floor" type="text" placeholder="Этаж">
+          <input class="intercom" type="text" placeholder="Домофон">
+        </div>
+        <div class="add3">Оформить</div>
+     </div>
+ </div>
+</div>
+
+
+    <footer>
+      <div class="footBlock1">
+        <div class="footlogo"></div>
+        <div class="frame1"></div>
+      </div>
+      <div class="footBlock2">
+        <div class="phoneNumber">
+          <div class="phText">Номер для заказа</div>
+          <div class="phBlock">
+            <div class="phImage"></div>
+            <div class="phNumber">+7 (930)-833-38-11</div>
+          </div>
+        </div>
+
+        <div class="socialNetwork">
+          <div class="socText">Мы в соцсетях</div>
+          <div class="socImage">
+            <a href="https://vk.company/ru/" target="_blank"><div class="vk"></div></a>
+            <a href="https://web.telegram.org/k/" target="_blank"><div class="telega"></div></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
